@@ -2,6 +2,10 @@
 
 A simple c# client library for [statsd.net](https://github.com/lukevenediger/statsd.net/) and [statsd](https://github.com/etsy/statsd/).
 
+# This fork/branch
+
+This copy of the original project has added an ability to publish metrics with defined source. Standard statsd service does not support metric sources, but Librato service does. This version of the library is aimed at Librato users, to allow them to publish metric sources along with the other data. 
+
 # Features
 * Log counts, timings, gauges, sets, calendargrams and raw metrics
 * Has an additional API that uses dynamics to create and submit stats
